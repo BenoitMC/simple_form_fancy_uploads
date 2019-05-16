@@ -14,9 +14,4 @@ Gem::Specification.new do |s|
   s.description = "Use simple_form (>= v2.0) custom inputs to get image previews or a link to uploaded file. Save time and code when you need useful file uploads."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
-
-  s.add_dependency "rails", ">= 4.0.0"
-
-  s.add_dependency "simple_form", "~> 3.1"
-  s.add_dependency "carrierwave"
 end
